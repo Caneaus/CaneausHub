@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0" />
+        <title>CANEAUS HUB</title>
+        <link rel="stylesheet" href="projects.css" />
+
+    </head>
+    <body>
+        <nav class="navbar">
+        <div class="navbar__container">
+        <a href="/index.html" id="navbar__logo">HUB</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="/index.html" class="navbar__links">
+                    Home
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/tech.html" class="navbar__links">
+                    ???
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/projects.html" class="navbar__links">
+                    Projects
+                </a>
+            </li>
+            <li class="navbar__btn">
+                <a href="/" class="button">
+                    Login
+                </a>
+            </li>
+        </ul>
+        </div>
+        </nav>
+        
+        <div class="main">
+            <div class="main__container">
+                <div class="main__content">
+                    <div class="main__content__proj1">
+                    <h1>Project Center</h1>
+                    <p1>You are currently on my portfolio website! I am working on this website to showcase my projects and current experience base. For now it will be mostly mark-up languages like HTML and CSS, but I hope to incorporate a back end someday.</p1>
+                   </div>
+                   <div class="main__content__proj2">
+                    <h1>Minesweeper</h1>
+                    <p1>I created a mock-minesweeper program in C as one of my first explorations into C/C++. It works by dynamically allocating an array based on the desired grid input by the player, randomly generating values, and assigning mines to parts of that grade based on the outcome. It will continue playing until all tiles are revealed except mines. Its detection works by cascading the detection in all valid directions if there are no adjacent mines. </p2>
+                    <a href ="/source/MinesweeperNewb.txt"  download> Click here for the source code!: minesweeper.cpp</a>
+                    <div class="main__proj2__img--container">
+                        <img src="/images/Minesweeper_Example.png" width: "100" height: "100" alt="picture" id="cool_image"/>
+                    </div>
+                    </div>
+                    <!--  <button class="main__btn"><a href="/">Explore</a></button> -->
+                </div>
+            </div>
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
